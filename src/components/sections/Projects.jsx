@@ -14,9 +14,9 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">Waste Exchange</h3>
+              <h3 className="text-xl font-bold mb-2">E-transver</h3>
               <p className="text-gray-400 mb-4">
-                Designed a scalable waste exchage platform, integration real-time tracking and infrastructure management for efficient waste diversion.
+                Developed an e-commerce website featuring real-time product tracking and streamlined infrastructure management, significantly enhancing the shopping experience.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Tailwind","React", "Node.js"].map((tech, key) => (
@@ -33,10 +33,10 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://"
+                  href="https://e-transver-site.vercel.app/home"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  Can't View Project →
+                  View Project →
                 </a>
               </div>
             </div>
