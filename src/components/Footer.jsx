@@ -10,7 +10,7 @@ export const Footer = () => {
 
   return (
     <footer className="fixed bottom-0 left-0 w-full text-center p-3 bg-blue-500 border-r text-white">
-      &copy; {now.getFullYear()} John Hardy. All rights reserved hgfhfh. — {now.toLocaleTimeString()}⏰
+      &copy; {now.getFullYear()} John Hardy. All rights reserved. — {now.toLocaleTimeString()}⏰
     </footer>
   );
 };
