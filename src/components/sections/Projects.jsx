@@ -48,9 +48,9 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Wealther-App</h3>
+              <h3 className="text-xl font-bold mb-2">Weather-App</h3>
               <p className="text-gray-400 mb-4">
-                A real-time Wealther app that provides users with up-to-date
+                A real-time Weather app that provides users with up-to-date
                 weather information, forecasts, and alerts based on their
                 location.
               </p>
