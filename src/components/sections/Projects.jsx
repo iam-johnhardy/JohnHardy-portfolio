@@ -16,10 +16,9 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">E-transver</h3>
               <p className="text-gray-400 mb-4">
-                Developed an e-commerce website featuring real-time product tracking and streamlined infrastructure management, significantly enhancing the shopping experience.
-              </p>
+                Developed static and dynamic site pages (Contact, Help, About), architected the vendor onboarding/process flow, and implemented API consumption layers for the front-end and dashboards to enable synchronized UI updates and analytics</p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Tailwind","React", "Node.js"].map((tech, key) => (
+                {["Tailwind", "React", "Node.js"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -33,7 +32,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://e-transver-site.vercel.app/home"
+                  href="https://e-transver.vercel.app/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →

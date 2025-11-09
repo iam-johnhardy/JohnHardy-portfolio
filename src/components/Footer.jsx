@@ -13,4 +13,5 @@ export const Footer = () => {
       &copy; {now.getFullYear()} John Hardy. All rights reserved. — {now.toLocaleTimeString()}⏰
     </footer>
   );
+  
 };

@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className=" min-h-screen flex items-center justify-center relative right-8 left-0 top-0  bg-cover bg-center bg-no-repeat"
+      className="min-h-screen flex items-center justify-center relative right-8 left-0 top-0  bg-cover bg-center bg-no-repeat"
       
     >
       <div
@@ -51,9 +51,8 @@ export const Home = () => {
         
         
       </RevealOnScroll>
-      <div className='fixed bottom-20  right-0 z-50 p-4 bg-gray-800 bg-opacity-80 backdrop-blur-md'>
+      <div className='fixed bottom-20 right-0 z-50 p- backdrop-blur-md'>
         <AssistantChat />
-          {/* <Client/> */}
         </div>
     </section>
   );
