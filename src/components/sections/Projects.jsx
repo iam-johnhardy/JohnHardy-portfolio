@@ -90,7 +90,7 @@ export const Projects = () => {
                 Designed and implemented a real-time project management web application with task assignment, role-based collaboration, and progress analytics.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "TailwindCSS", "API", "PostgreSQL", "Express", "Node"].map((tech, key) => (
+                {["React", "TailwindCSS", "Dummy Data", "PostgreSQL", "Express", "Node"].map((tech, key) => (
                   <span
                     key={key}
                     className="
