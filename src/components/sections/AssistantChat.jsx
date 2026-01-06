@@ -124,7 +124,7 @@ export default function AssistantChat() {
       <img
         src={motherSvg}
         alt="Mother Assistant"
-        className="w-24 h-24 rounded-full shadow-lg hover:scale-105 transition-transform duration-200 cursor-pointer mb-4"
+        className="w-14 lg:w-24 h-24 rounded-full shadow-lg hover:scale-105 transition-transform duration-200 cursor-pointer mb-4"
         onClick={() => setShowAssistant(v => !v)}
         id="assistant-chat"
       />
