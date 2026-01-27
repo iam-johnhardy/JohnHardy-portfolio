@@ -18,7 +18,7 @@ export const Projects = () => {
               <p className="text-gray-400 mb-4">
                 Developed static and dynamic site pages (Contact, Help, About), architected the vendor onboarding/process flow, and implemented API consumption layers for the front-end and dashboards to enable synchronized UI updates and analytics</p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Tailwind", "React","API"].map((tech, key) => (
+                {["Tailwind", "React","Auth", "Cors","API"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 

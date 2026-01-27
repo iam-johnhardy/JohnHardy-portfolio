@@ -4,6 +4,8 @@ export const About = () => {
   const frontendSkills = ["UI/UX Design",
     "React",
     "Vue",
+     "Next.js",
+     "Search Engine Optimization (SEO)",
     "JavaScript", 
     "TypeScript",
     "TailwindCSS",
