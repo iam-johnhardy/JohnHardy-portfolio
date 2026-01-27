@@ -1,6 +1,8 @@
 import ai from '../../assets/A.I-image.jpg';
 import { RevealOnScroll } from "../RevealOnScroll";
 import AssistantChat from '../../components/sections/AssistantChat.jsx';
+import { FaFacebookF } from "react-icons/fa";import { SiTiktok } from "react-icons/si";
+import { AiFillInstagram } from "react-icons/ai";
 
 
 export const Home = () => {
@@ -45,7 +47,15 @@ export const Home = () => {
             >
               Contact Me
             </a>
+
+           
           </div>
+          <div className="flex justify-center space-x-4 mt-6">
+            <FaFacebookF className="text-2xl text-blue-500 hover:text-blue-300 transition-colors my-4 hover:animate-ping" />
+            <SiTiktok className=" text-2xl text-blue-500 hover:text-blue-300 transition-colors my-4 hover:animate-ping" />
+            <AiFillInstagram className=" text-2xl text-blue-500 hover:text-blue-400 transition-colors my-4 hover:animate-ping" />
+          </div>
+
         </div>
         
         
