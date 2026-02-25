@@ -28,7 +28,7 @@ export const Home = () => {
           </h1>
 
           <p className=" tex-gray-400 text-lg mb-8 max-w-lg mx-auto  z-20">
-            I’m a full-stack developer who loves crafting clean, scalable web
+            I’m a Full-Stack Engineer (Frontend-Focused) who loves crafting clean, scalable web
             applications. My goal is to build solutions that offer both
             exceptional performance and a delightful user experience.
           </p>
