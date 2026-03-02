@@ -1,5 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import { ProjectCard } from "../ProjectCard";
+import ai from "../../assets/A.I-image.jpg";
 
 export const Projects = () => {
   const projectsData = [
@@ -175,8 +176,16 @@ export const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="min-h-screen flex items-center justify-center py-20 relative right-8 left-0 top-0  bg-cover bg-center bg-no-repeat"
     >
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url(${ai})`,
+          opacity: 0.07,
+          zIndex: 0,
+        }}
+      />
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
@@ -189,6 +198,7 @@ export const Projects = () => {
           </div>
         </div>
       </RevealOnScroll>
-    </section>
+   
+    </section >
   );
 };

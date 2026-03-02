@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
+import { Modal } from "./Modal";
 
 export const ProjectCard = ({
   title,
@@ -15,7 +16,7 @@ export const ProjectCard = ({
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+    <div className="relative p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
       {/* Header */}
       <h3 className="text-xl font-bold mb-2">{title}</h3>
       <p className="text-gray-400 mb-4">{description}</p>
@@ -51,9 +52,9 @@ export const ProjectCard = ({
         </button>
       </div>
 
-      {/* Collapsible Details */}
+      {/* Modal details overlay */}
       {isExpanded && (
-        <div className="mt-6 pt-6 border-t border-white/10 space-y-5 animate-in fade-in duration-300">
+        <Modal onClose={() => setIsExpanded(false)}>
           {/* Metrics */}
           {metrics && Object.keys(metrics).length > 0 && (
             <div>
@@ -145,7 +146,7 @@ export const ProjectCard = ({
               </div>
             </div>
           )}
-        </div>
+        </Modal>
       )}
     </div>
   );

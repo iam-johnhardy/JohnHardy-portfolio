@@ -1,8 +1,10 @@
 import ai from '../../assets/A.I-image.jpg';
 import { RevealOnScroll } from "../RevealOnScroll";
 import AssistantChat from '../../components/sections/AssistantChat.jsx';
-import { FaFacebookF } from "react-icons/fa";import { SiTiktok } from "react-icons/si";
+import { FaFacebookF } from "react-icons/fa";
+import { SiTiktok } from "react-icons/si";
 import { AiFillInstagram } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 
 export const Home = () => {
@@ -51,9 +53,17 @@ export const Home = () => {
            
           </div>
           <div className="flex justify-center space-x-4 mt-6">
-            <FaFacebookF className="text-2xl text-blue-500 hover:text-blue-300 transition-colors my-4 hover:animate-ping" />
+            <a href="" >
+              <FaFacebookF
+             className="text-2xl text-blue-500 hover:text-blue-300 transition-colors my-4 hover:animate-ping" />
+            </a>
             <SiTiktok className=" text-2xl text-blue-500 hover:text-blue-300 transition-colors my-4 hover:animate-ping" />
+
             <AiFillInstagram className=" text-2xl text-blue-500 hover:text-blue-400 transition-colors my-4 hover:animate-ping" />
+            <a href="https://www.linkedin.com/in/john-hardy-34729322a" >
+              <FaLinkedinIn className=" text-2xl text-blue-500 hover:text-blue-300 transition-colors my-4 hover:animate-ping" />
+            </a>
+
           </div>
 
         </div>
@@ -61,7 +71,7 @@ export const Home = () => {
         
         
       </RevealOnScroll>
-      <div className='fixed bottom-20 right-0 z-50 p- backdrop-blur-md'>
+      <div className='fixed bottom-20 right-0 z-50 '>
         <AssistantChat />
         </div>
     </section>
